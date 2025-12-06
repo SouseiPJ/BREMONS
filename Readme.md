@@ -2,11 +2,16 @@
 
 LFS管理されたファイルがいくつかあります．
 ローカルに Git-LFS を入れていない場合，LFS管理されたファイル (`.gitattributes` に記載されている）は，実体ではなくポインタになってます．
-Git-LFSを入れることをお勧めします．Git-LFS を入れて git lfs install しておけば，いつもの pull, push でなんら変わりません．
+
+必ずGit-LFSを入れて `git lfs install` してください．
+
+- install してない状態で `git push` は特に厳禁です． 
+
+そうしておけば，いつもの pull, push でなんら変わりません．
 
 ## Git-LFS のインストール
 
-- windows: `winget install Git.GitLFS`
+- windows: `winget install GitHub.GitLFS`
 - mac: `brew install git-lfs`
 
 ## 最初のクローン
